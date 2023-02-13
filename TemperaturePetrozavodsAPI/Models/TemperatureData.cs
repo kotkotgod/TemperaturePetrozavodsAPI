@@ -22,6 +22,7 @@ namespace TemperaturePetrozavodsAPI.Models
             {
                 ExternalResponseData unformattedDayTemperatureData = DeserealizeExternalJSON(responseMessage.Content).Result;
                 dayInfo = FormatResponse(unformattedDayTemperatureData, daySpan);
+                dayInfo.Reverse();
             }
             return dayInfo;
         }
