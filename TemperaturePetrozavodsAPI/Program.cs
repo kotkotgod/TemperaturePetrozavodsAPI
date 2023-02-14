@@ -9,7 +9,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-//слушаем порт вебсервера отовсюду
+//СЃР»СѓС€Р°РµРј РїРѕСЂС‚ РІРµР±СЃРµСЂРІРµСЂР° РѕС‚РѕРІСЃСЋРґСѓ
 app.Urls.Add("http://0.0.0.0:80");
 
 // Configure the HTTP request pipeline.
