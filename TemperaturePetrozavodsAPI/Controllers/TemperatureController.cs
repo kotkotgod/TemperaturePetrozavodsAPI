@@ -3,7 +3,7 @@ using TemperaturePetrozavodsAPI.Models;
 
 namespace WeatherPetrozavodsk.Controllers
 {
-    //доступ к api по имени контроллера = /api/Temperature
+    // /api/Temperature
     [Route("api/[controller]")]
     [ApiController]
     public class TemperatureController : ControllerBase
