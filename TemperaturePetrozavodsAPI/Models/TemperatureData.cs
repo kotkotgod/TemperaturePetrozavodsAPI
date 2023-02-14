@@ -62,7 +62,7 @@ namespace TemperaturePetrozavodsAPI.Models
          * time - дата со временем с разбивкой по часу
          * temperature - температура в этот момент
          * 
-         * На выходе Stack из days элементов struct DayInfo - days последних дней до текущей даты с датой и температурой в 4 точках дня 
+         * На выходе List из days элементов struct DayInfo - days последних дней до текущей даты с датой и температурой в 4 точках дня 
          */
         List<DayInfo> FormatResponse(ExternalResponseData dataToFormat, int days)
         {
